@@ -1,0 +1,10 @@
+node_modules
+
+test.js
+src.sh
+docs.md
+doc.md
+
+packages
+package-lock.json
+package.json

@@ -4,7 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "dev:start": "nodemon ./src/infra/http/server.ts"
+    "dev:start": "nodemon ./src/infra/http/server.ts",
+    "dev:seedDB": "clear && ts-node ./seed_db.ts",
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "preset": "ts-jest",
+    "collectCoverage": true,
+    "verbose": true,
+    "clearMocks": true,
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "moduleNameMapper": {
+      "^@services/(.*)$": "<rootDir>/src/services/$1",
+      "^@domain/(.*)$": "<rootDir>/src/subdomain/$1",
+      "^@repo/(.*)$": "<rootDir>/src/repo/$1"
+    }
   },
   "keywords": [],
   "author": "",

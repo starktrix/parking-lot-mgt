@@ -1,0 +1,20 @@
+{"_id":"1","license_number":"ABC123","type":"Sedan","owner":"O001"}
+{"_id":"10","license_number":"BCD890","type":"Minivan","owner":"O010"}
+{"_id":"11","license_number":"EFG321","type":"Pickup Truck","owner":"O011"}
+{"_id":"12","license_number":"GHJ654","type":"SUV","owner":"O012"}
+{"_id":"13","license_number":"IJK987","type":"Hybrid","owner":"O013"}
+{"_id":"14","license_number":"LMN210","type":"Electric","owner":"O014"}
+{"_id":"15","license_number":"NOP753","type":"Diesel","owner":"O015"}
+{"_id":"16","license_number":"QRS276","type":"Gasoline","owner":"O016"}
+{"_id":"17","license_number":"TUV459","type":"Luxury Sedan","owner":"O017"}
+{"_id":"18","license_number":"WXYZ632","type":"Compact","owner":"O018"}
+{"_id":"19","license_number":"ABCDEFG","type":"Full-size SUV","owner":"O019"}
+{"_id":"2","license_number":"DEF456","type":"SUV","owner":"O002"}
+{"_id":"20","license_number":"HIJKL454","type":"Sport Utility Truck","owner":"O020"}
+{"_id":"3","license_number":"GHI789","type":"Coupe","owner":"O003"}
+{"_id":"4","license_number":"JKL012","type":"Hatchback","owner":"O004"}
+{"_id":"5","license_number":"MNO345","type":"Convertible","owner":"O005"}
+{"_id":"6","license_number":"PQR678","type":"Truck","owner":"O006"}
+{"_id":"7","license_number":"STU901","type":"Van","owner":"O007"}
+{"_id":"8","license_number":"VWX234","type":"Sports Car","owner":"O008"}
+{"_id":"9","license_number":"YZA567","type":"Wagon","owner":"O009"}

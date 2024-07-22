@@ -1,0 +1,22 @@
+{
+    "references": [{"path": "..", "name": "vehicle"}],
+    "compilerOptions": {
+        // do not set root dir
+        // "rootDir": ".",
+        "baseUrl": "../",
+        "allowJs": true,
+        "module": "commonjs",
+        // "target": "es2017",
+        "types": ["jest"],
+
+        "paths": {
+            "@domain/*": ["src/subdomain/*"],
+            "@services/*": ["src/services/*"],
+            "@infra/*": ["src/infra/*"],
+            "@repo/*": ["src/repo/*"]
+          },
+          "noEmit": true
+      },
+      "include": ["."],
+
+}

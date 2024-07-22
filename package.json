@@ -3,6 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "vehicle:dev": "cd packages/vehicle && npm run dev:start",
+    "vehicle:dev:seedDB": "cd packages/vehicle && npm run dev:seedDB",
+    "vehicle:test": "cd packages/vehicle && npm run test"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
@@ -12,6 +17,7 @@
     "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@types/bcrypt": "^5.0.2",
     "@types/cookie-parser": "^1.4.7",
     "@types/cors": "^2.8.17",
@@ -21,10 +27,13 @@
     "@types/jsonwebtoken": "^9.0.6",
     "@types/nedb": "^1.8.16",
     "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
     "json-server": "^1.0.0-beta.1",
     "nedb": "^1.8.0",
     "nodemon": "^3.1.4",
     "rimraf": "^6.0.1",
+    "rosie": "^2.1.1",
+    "supertest": "^7.0.0",
     "ts-jest": "^29.2.2",
     "ts-node": "^10.9.2"
   }

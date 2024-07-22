@@ -1,0 +1,8 @@
+node_modules
+
+.env
+vehicles.js
+vehicles.json
+coverage
+
+__test__/dbs

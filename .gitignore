@@ -10,5 +10,5 @@ packages/auth/src
 packages/billing/src
 packages/notification/src
 packages/parking-lot/src
-packages/vehicle/src
+#packages/vehicle/src
 packages/shared

@@ -6,3 +6,5 @@ vehicles.json
 coverage
 
 __test__/dbs
+src/infra/http/docs/example.ts
+src/repo/memory

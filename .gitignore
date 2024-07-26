@@ -12,3 +12,6 @@ packages/notification/src
 packages/parking-lot/src
 #packages/vehicle/src
 packages/shared
+
+
+manual-swagger-codegen

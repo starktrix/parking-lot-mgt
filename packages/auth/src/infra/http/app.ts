@@ -4,7 +4,7 @@ import swaggerUi from "swagger-ui-express";
 import { HTTP_STATUS } from "../../../../shared/infra/http/http-status";
 import { authRouter } from "./api";
 
-// import swaggerSpec from "./docs";
+import swaggerSpec from "./docs";
 
 
 const app = express();
@@ -15,7 +15,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 
 // docs endpoints
-// app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec, {explorer: true}));
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec, {explorer: true}));
      
 // application routes
 app.use("/api/v1", authRouter);

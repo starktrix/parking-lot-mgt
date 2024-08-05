@@ -6,7 +6,8 @@
   "scripts": {
     "vehicle:dev": "cd packages/vehicle && npm run dev:start",
     "vehicle:dev:seedDB": "cd packages/vehicle && npm run dev:seedDB",
-    "vehicle:test": "cd packages/vehicle && npm run test"
+    "vehicle:test": "cd packages/vehicle && npm run test",
+    "auth:dev": "cd packages/auth && npm run dev"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",

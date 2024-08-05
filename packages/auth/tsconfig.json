@@ -1,0 +1,24 @@
+{
+    "references": [{"path": "../shared/"}],
+    "compilerOptions": {
+      "composite": true,
+      "baseUrl": "./",
+      "rootDir": "./src",
+      "allowJs": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "pretty": true,
+      "sourceMap": true,
+      "target": "es2017",
+      "outDir": "./dist",
+      "lib": ["es6"],
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "paths": {
+        "@services/*": ["src/services/*"],
+        "@repo/*": ["src/repo/*"]
+      },
+    },
+    "include": ["src"]
+  }
+  

@@ -6,7 +6,7 @@ docs.md
 doc.md
 
 packages/account/src
-packages/auth/src
+#packages/auth/src
 packages/billing/src
 packages/notification/src
 packages/parking-lot/src
